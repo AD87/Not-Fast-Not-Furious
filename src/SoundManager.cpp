@@ -1,4 +1,4 @@
-#include <assert.h>
+#include <cassert>
 #include "ReportError.h"
 #include "SoundManager.h"
 

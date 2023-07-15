@@ -1,5 +1,5 @@
 #include "ObjUsefulFunctions.h"
-#include <assert.h>
+#include <cassert>
 
 // Strip whitespace from beginning and end of string
 void Trim(std::string* ps)

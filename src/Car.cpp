@@ -12,7 +12,8 @@ static int n = TheGameObjectFactory::Instance()->add(Car::staticTypeName(), crea
 
 void collidePlayerCar(GameObject* go1, GameObject* go2){
 	//narrow phase
-	if (go1->getOBB().intersects(&go2->getOBB())){
+	OBB obb = go2->getOBB();
+	if (go1->getOBB().intersects(&obb)){
 		TheHud::Instance()->reduceHealth();
 	}
 }
