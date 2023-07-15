@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <fstream>
 #include "Shader.h"
 #include "MyGL.h"

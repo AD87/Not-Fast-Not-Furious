@@ -1,4 +1,4 @@
-#include <assert.h>
+#include <cassert>
 #include "Mesh.h"
 #include "File.h"
 #include "ReportError.h"

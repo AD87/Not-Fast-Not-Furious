@@ -2,7 +2,7 @@
 #define MY_GL_H
 
 #include <stdlib.h>
-#include "glew.h"
-#include <gl\glut.h>
+#include <GL/glew.h>
+#include <GL/glut.h>
 
 #endif
